@@ -85,21 +85,21 @@
                 flex: 1;
             }
             /* Cores baseadas na imagem */
-            .header div:nth-child(1) { background-color: pink; }
-            .header div:nth-child(2) { background-color: blue; }
-            .header div:nth-child(3) { background-color: orange; }
-            .header div:nth-child(4) { background-color: yellow; }
+            .header div:nth-child(1) { background-color: rgb(255, 192, 253); }
+            .header div:nth-child(2) { background-color: rgb(255, 0, 225); }
+            .header div:nth-child(3) { background-color: rgb(255, 0, 242); }
+            .header div:nth-child(4) { background-color: rgb(195, 0, 255); }
             .esquerda div:nth-child(1) { background-color: lightblue; }
-            .esquerda div:nth-child(2) { background-color: blue; }
+            .esquerda div:nth-child(2) { background-color: rgb(255, 0, 208); }
             .esquerda div:nth-child(3) { background-color: purple; }
-            .direita div:nth-child(1) { background-color: cyan; }
-            .direita div:nth-child(2) { background-color: red; }
-            .topo-centro div:nth-child(1) { background-color: darkred; }
-            .topo-centro div:nth-child(2) { background-color: purple; }
-            .meio-centro-topo div:nth-child(1) { background-color: orange; }
+            .direita div:nth-child(1) { background-color: rgb(255, 0, 123); }
+            .direita div:nth-child(2) { background-color: rgba(238, 0, 255, 0.63); }
+            .topo-centro div:nth-child(1) { background-color: rgba(66, 141, 216, 0.826); }
+            .topo-centro div:nth-child(2) { background-color: rgb(46, 180, 233); }
+            .meio-centro-topo div:nth-child(1) { background-color: rgb(11, 148, 155); }
             .meio-centro-topo div:nth-child(2) { background-color: pink; }
-            .meio-centro-topo div:nth-child(3) { background-color: yellow; }
-            .meio-centro-baixo div:nth-child(1) { background-color: green; }
+            .meio-centro-topo div:nth-child(3) { background-color: rgba(225, 0, 255, 0.607); }
+            .meio-centro-baixo div:nth-child(1) { background-color: rgb(202, 47, 111); }
             .meio-centro-baixo div:nth-child(2) { background-color: cyan; }
             .meio-centro-baixo div:nth-child(3) { background-color: purple; }
         </style>
