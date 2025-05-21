@@ -6,15 +6,17 @@
         <link rel="stylesheet" type="text/css" href="">
         <script src="jquery.js"></script>
         <script>
+              let nome = document.("nome").value;
+              let idade = document.("nome"). value;
 
            function Verificar(){
-           let nome = getElementById("nome");
-           let idade = getElementById("nome");
-           alert(nome);
-           alert(idade);
+                    alert(nome);
+                    alert(idade);
            }
-
-
+           bnt_verificar.onclick = function(){
+            alert(nome);
+            alert(idade);
+           }
 
         </script>
         <style>
@@ -22,9 +24,10 @@
         </style>
     </head>
     <body>
+        <p>Verificar se o eleitor pode votar</p>
         <input type="text" id="nome">
         <imput type="text" id="idade">
         </br>  
-        <button onclick="verificar();">Verificar</button>
+        <button onclick="verificar();" id="bnt_verificar">Verificar</button>
     </body>
 </html
